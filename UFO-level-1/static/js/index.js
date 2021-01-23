@@ -47,7 +47,7 @@ function runEnter() {
   console.log(inputValue);
   console.log(tableData);
 
-  var filteredData = tableData.filter(table => table.datetime === inputValue);
+  var filteredData = tableData.filter(data => data.datetime === inputValue);
 
   console.log(filteredData);
 };
