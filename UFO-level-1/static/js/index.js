@@ -19,7 +19,7 @@ data.forEach((ufoSighting) => {
 });
 
 // from data.js
-var tableData = data;
+var table = data;
 
 // Select the button
 var button = d3.select("#button");
@@ -45,9 +45,9 @@ function runEnter() {
 
   // Print the value to the console
   console.log(inputValue);
-  console.log(tableData);
+  console.log(table);
 
-  var filteredData = tableData.filter(data => data.datetime === inputValue);
+  var filteredData = table.filter(line => line.datetime === inputValue);
 
   console.log(filteredData);
 };
