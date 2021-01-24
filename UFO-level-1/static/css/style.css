@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
   }
   
   html,
@@ -16,6 +19,7 @@
     min-height: 100%;
     padding-bottom: 130px;
     overflow: auto;
+    background: black
   }
   
   /* The footer is positioned at the bottom of the page */
@@ -55,16 +59,26 @@
   /* Adding styles to the aside and filter form */
   .ufo-form {
     margin-top: 50px;
+    color: #FF1493;
   }
   
   .filters .panel-body {
     padding: 0;
+    color: #FF1493;
   }
   
   .filters {
     margin-top: 10px;
+    color: #FF1493;
   }
-  
+    #datetime {
+      color: #ff1493
+    }
+
+    #filter-btn {
+      background: #4B0082;
+    }
+
   select {
     display: block;
     width: 100%;
@@ -120,7 +134,7 @@
   /* input placeholder color changes */
   .form-control::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: #8e979f;
+    color: #FF1493;
   }
   
   .form-control::-moz-placeholder {
